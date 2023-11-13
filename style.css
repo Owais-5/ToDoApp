@@ -1,0 +1,54 @@
+.container{
+    max-width: 400px;
+    margin: 20px;
+    background-color: rgb(242, 253, 193);
+    padding: 20px;
+    border-radius: 12px;
+    border-style: groove;
+    border-color: rgb(213, 213, 214);
+}
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+form{
+    margin-bottom: 10px;
+}
+input[type="text"]{
+    width: 200px;
+    padding: 5px;
+    font-size: 16px;
+}
+button{
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: rgb(83, 255, 120);
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+.del-btn{
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: rgb(250, 39, 39);
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+ul{
+   list-style-type: none;
+   padding: 0; 
+}
+.edit-btn{
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: rgb(109, 109, 253);
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+#taskCounter{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: grey;
+}
